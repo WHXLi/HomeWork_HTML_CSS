@@ -3,39 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Магазин Чёрных Квадратов</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Добро пожаловать в <em>Магазин Чёрных Квадратов</em></h1>
-<pre><a href="index.html">Главная</a>   <a href="catalog.html">Каталог</a>  <a href="contacts.html">Контакты</a></pre>
+    <h1 class="logo">Добро пожаловать в <em>Магазин Чёрных Квадратов</em></h1>
+    <ul class="menu">
+        <li><a href="index.html" >Главная</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+    </ul>
+    <hr>
+<h1 class="page_name">Средний чёрный квадрат</h1>
 <hr>
-<h1>Средний чёрный квадрат</h1>
-<div>   <a href="big_square.html">Квадрат больше <---</a>
-        <a href="small_square.html">  ---> Квадрат меньше</a>
-</div><br>
-<a  title="Ссылка на полное изображение!"
+<h2 class="price">Цена: 100$</h2>
+<a class="fast_link_left" href="big_square.html"><--- Квадрат больше</a>
+<a class="fast_link_right" href="small_square.html">Квадрат меньше  ---></a>
+<div class="main_img">
+    <a  title="Ссылка на полное изображение!"
     target="_blank"
-    href="img/square.jpg">
-    <img src="img/square.jpg" alt="square.jpg" width="400px" height="400px">
-</a>
-<h2>Цена: 100$</h2>
-<h4>Описание:</h4>
-<p> Чёрный квадрат средних размеров</p>
-<h4>Характеристики:</h4>
-<ul>
+    href="img/square.jpg"> 
+        <img src="img/square.jpg" alt="square.jpg" width="400px" height="400px">
+    </a>
+</div>
+<h4 class="page_title">Описание:</h4>
+<p class="page_about"> Чёрный квадрат средних размеров</p>
+<h4 class="page_title">Характеристики:</h4>
+<ul class="page_stats">
     <li><em>Размеры</em>: 2x2 м.</li>
     <li><em>Цвет</em>: <b>Чёрный.</b></li>
     <li><em>Комплектация</em>: <b>Чёрное</b> полотно с изображением <b>чёрного</b> квадрата.</li>
 </ul>
-<h4>Подробное описание товара:</h4>
-<p>
+<h4 class="page_title">Подробное описание товара:</h4>
+<p class="page_about_more">
     Насыщенный чёрным цветом чёрный квадрат будет желанным украшением в вашем доме.<br>
     Его средние размеры позволяют вместить его в комнату меньше ОГРОМНОЙ,
     что делает его более мобильным, чем старший брат.<br>
     Отличный подарок на свадьбу, день рождения или новоселье.<br>
 </p>
 <hr>
-<p>
+<div class="footer">
     <b>Black Square LTD.</b> &copy; Все права защищены.
-</p>
+</div>
 </body>
 </html>
