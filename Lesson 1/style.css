@@ -1,0 +1,117 @@
+body{
+    background-color: #f8f8f8;
+}
+.logo{
+    text-align: center;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: lightskyblue;
+}
+.menu  {
+    background-color: black;
+    text-align: center;
+    height: 20px;
+}
+.menu li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 40px;
+}
+.page_name{
+    text-align: center;
+    letter-spacing: 10px;
+    font-style: italic;
+    font-size: 30px;
+}
+.page_info{
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+}
+.page_info a{
+    color: blue;
+}
+.page_title{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.page_about{
+    color: #707070;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+.page_stats{
+    list-style-type: square;
+}
+.page_about_more{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    text-align: start;
+}
+.catalog{
+    margin: 40px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.catalog_unit{
+    width: 20%;
+}
+.catalog_unit a{
+    color: black;
+    text-decoration: none;
+}
+.fast_link_right{
+    float: right;
+    color: black;
+    text-decoration: none;
+}
+.fast_link_left {
+    float: left;
+    color: black;
+    text-decoration: none;
+}
+.main_img{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.main_img img {
+    outline: black 5px solid; 
+}
+.price{
+    text-align: center;
+}
+form{
+    margin: 50px 0 13px 0;
+}
+.text_field{
+    color: black;
+    font-size: 16px;
+    width: 100%;
+    height: 30px;
+}
+.button{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0 0 2px;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    border: 0px;
+}
+.footer{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
