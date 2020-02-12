@@ -1,8 +1,41 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #f8f8f8;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.header {
+    height: 110px;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
 .logo {
+    position: relative;
+    top: -30px;
+    right: -400px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin: -30px auto;
+}
+
+.shop_name {
     text-align: center;
 }
 
@@ -49,9 +82,19 @@ body {
     color: black;
     font-weight: 400;
     background-color: #eaeaea;
+    padding-left: 5px;
+}
+
+.main .page_title {
+    margin: 0 0 0 250px;
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    background-color: #eaeaea;
 }
 
 .page_about {
+    margin: 10px 0 0 250px;
     color: #707070;
     font-style: italic;
     font-size: 14px;
@@ -99,21 +142,48 @@ body {
     text-decoration: none;
 }
 
-.main_img {
+.main {
     margin-top: 50px;
-    display: flex;
-    justify-content: center;
+    height: 220px;
+}
+
+.main_img {
+    float: left;
+
 }
 
 .main_img img {
     outline: black 5px solid;
 }
-.main_img img:hover{
-    outline:0px;
+
+.main_img img:hover {
+    outline: 0px;
 }
 
 .price {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0 0 52px;
+    float: left;
+}
+
+.button_buy {
+    margin: 125px 0 0 252px;
+}
+
+.button_buy a {
+    width: 100px;
+    height: 25px;
+    display: block;
+    padding-top: 5px;
+    background-color: black;
     text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.button_buy a:hover {
+    color: lightskyblue;
 }
 
 form {
@@ -127,10 +197,12 @@ form {
     height: 30px;
     text-transform: capitalize;
 }
-.e-mail:focus{
+
+.e-mail:focus {
     color: white;
     background-color: black;
 }
+
 .button {
     width: 100%;
     height: 30px;
@@ -141,34 +213,51 @@ form {
     border: 0px;
 }
 
-table{
+table {
     border: 1px solid black;
     border-collapse: collapse;
     width: 100%;
 }
-table td{
+
+table td {
     border: 1px solid black;
     text-align: center;
     width: 300px;
     height: 100px;
-} 
-.poetry{
+}
+
+.poetry {
     font-style: italic;
     font-weight: bolder;
     word-spacing: 10px;
 }
-.text_capitalize::first-letter{
+
+.text_capitalize::first-letter {
     text-transform: capitalize;
     color: black;
     font-weight: bolder;
     font-size: 18px;
 }
-.up_row{
+
+.up_row {
     height: 150px;
     font-size: 24px;
 }
+hr{
+    width: 100%;
+}
+
 .footer {
+    flex: 0 0 auto;
     float: left;
     width: 100%;
-    margin-bottom: 10px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    padding-bottom: 3px;
+}
+
+.footer_text {
+    float: right;
+    margin: 3px 10px 0 0;
 }
