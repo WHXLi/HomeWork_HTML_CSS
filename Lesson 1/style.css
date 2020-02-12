@@ -26,16 +26,13 @@ body {
 }
 
 .logo {
-    float: right;
+    position: relative;
+    top: -30px;
+    right: -400px;
     width: 50px;
     height: 50px;
     background-color: black;
-    margin: -63px 210px 0 0;
-}
-
-.logo img {
-    width: 50px;
-    height: 50px;
+    margin: -30px auto;
 }
 
 .shop_name {
